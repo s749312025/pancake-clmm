@@ -23,14 +23,14 @@ solana_security_txt::security_txt! {
 #[cfg(feature = "devnet")]
 declare_id!("DRayAUgENGQBKVaX8owNhgzkEDyoHTGVEGHVJT1E9pfH");
 #[cfg(not(feature = "devnet"))]
-declare_id!("HpNfyc2Saw7RKkQd8nEL4khUcuPhQ7WwY1B2qjx8jxFq");
+declare_id!("REALQqNEomY6cQGZJUGwywTBD2UmDT32rZcNnfxQ5N2");
 
 pub mod admin {
     use super::{pubkey, Pubkey};
     #[cfg(feature = "devnet")]
     pub const ID: Pubkey = pubkey!("DRayqG9RXYi8WHgWEmRQGrUWRWbhjYWYkCRJDd6JBBak");
     #[cfg(not(feature = "devnet"))]
-    pub const ID: Pubkey = pubkey!("B8QbApqemf987jBEusvtc9vFnpsnDFNm1mQRmZtjv4wV");
+    pub const ID: Pubkey = pubkey!("EmEa9b4yGffixdeFQ9zoyB3V5D9PZAbcE79mfwXb3bhs");
 }
 
 #[program]
