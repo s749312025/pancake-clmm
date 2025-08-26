@@ -7,7 +7,7 @@ keywords = ["solana", "anchor", "raydium"]
 
 [lib]
 crate-type = ["cdylib", "lib"]
-name = "raydium_amm_v3"
+name = "pancake_amm_v3"
 doctest = false
 
 [features]
